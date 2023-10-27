@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*width: 375px;*/
+    height: 70px;
+    line-height: 35;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: -.5px;
+    color: #151515;
+    margin-bottom: 24px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+header img {
+    height: 18px;
+    width: 32px;
+}
+
+body {
+    width: 375px;
+}
+
+.hero img {
+    width: 375px;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: -.5px;
+    /*color: #151515;*/
+    color: #151515;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.main-content-p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 26px;
+    color: #686868;
+    margin: 0;
+    text-align: center;
+
+}
+
+.main-content-btn {
+    height: 48px;
+    width: 136px;
+    border-radius: 15px;
+    border: none;
+    background-color: #151515;
+    color: #FAFAFA;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+    height: 26px;
+    width: 343px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#img-databiz {
+    height: 14px;
+    width: 81px;
+}
+
+#img-audiophile {
+    height: 26px;
+    width: 52px;
+}
+
+#img-client-meet {
+    height: 14px;
+    width: 64px;
+}
+
+#img-maker {
+    height: 17px;
+    width: 59px;
+}
